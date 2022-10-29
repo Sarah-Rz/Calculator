@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Java Script Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@300&family=DM+Sans&family=Dongle&family=Fredoka+One&family=Luxurious+Roman&family=Neonderthaw&family=Quintessential&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100;400;900&family=Rowdies:wght@300&family=Rubik:wght@300&family=Smooch+Sans:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="grid">
+          <div class="dis">
+            <input id="secondaryDisplay" type="text" placeholder="0" class="input"/>
+            <div id="display">0</div> 
+          </div>
+          <button id="clear" class="padButton AC warning" onclick="clearDisplay()">AC</button>
+          <button id="negative-value" class="padButton C Warning" onclick="showNumOnDisplay('negative-value')">+/-</button> 
+          <button id="divide" class="padButton div" onclick="showNumOnDisplay('/')">/</button>
+          <button id="multiply" class="padButton multi" onclick="showNumOnDisplay('x')">x</button>
+          <button id="seven" class="padButton seven dark-color" onclick="showNumOnDisplay(7)">7</button>
+          <button id="eight" class="padButton eight dark-color" onclick="showNumOnDisplay(8)">8</button>
+          <button id="nine" class="padButton nine dark-color" onclick="showNumOnDisplay(9)">9</button>          
+          <button id="subtract" class="padButton minus" onclick="showNumOnDisplay('-')">-</button>
+          <button id="four" class="padButton four dark-color" onclick="showNumOnDisplay(4)">4</button>
+          <button id="five" class="padButton five dark-color" onclick="showNumOnDisplay(5)">5</button>
+          <button id="six" class="padButton six dark-color" onclick="showNumOnDisplay(6)">6</button>
+          <button id="add" class="padButton add" onclick="showNumOnDisplay('+')">+</button>
+          <button id="one" class="padButton one dark-color" onclick="showNumOnDisplay(1)">1</button>
+          <button id="two" class="padButton two dark-color" onclick="showNumOnDisplay(2)">2</button>
+          <button id="three" class="padButton three dark-color" onclick="showNumOnDisplay(3)">3</button>
+          <button id="equals" class="padButton equal primary " onclick="showNumOnDisplay('=')">=</button>
+          <button id="zero" class="padButton zero dark-color" onclick="showNumOnDisplay(0)">0</button>
+          <button id="decimal" class="padButton dot dark-color" onclick="showNumOnDisplay('.')">.</button> 
+      </div>      
+    </div>  
+    <div id="copy">
+      <p>© 2022 by Sarah-RZ</p>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
