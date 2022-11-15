@@ -1,1 +1,2 @@
-## [Java Script Calculator](https://sarah-rz.github.io/Calculator/)
+Live Demo:
+## [JavaScript Calculator](https://sarah-rz.github.io/Calculator/)
